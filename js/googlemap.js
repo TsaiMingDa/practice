@@ -1,6 +1,6 @@
 
 		var map;
-		var locat = new google.maps.LatLng(45.430817,12.331516);
+		var locat = new google.maps.LatLng(43.054226, 141.307788);
 		var map2;
 		var locat2 = new google.maps.LatLng(25.046566, 121.515956);
 		var map3;
