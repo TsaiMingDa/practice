@@ -11,8 +11,6 @@
 .carousel-inner img{
 	width:50%;
 	margin:40px auto 30px auto;
-}
-.carousel-inner{
 	padding-top:50px;
 	padding-bottom:50px;
 }
@@ -69,7 +67,7 @@ footer{
 	color:white;
 }
 #map,#map2,#map3{ 
-	height: 450px;
+	height: 300px;
 }
 .carousel{
 	  background: linear-gradient(	#FF5151,#FF0000); /* Standard syntax */;
@@ -84,4 +82,9 @@ footer{
 }
 .navbar{
 	font-family: 'Candal', sans-serif;
+}
+.mapPosition{
+position: relative;
+  top: -20px;
+  left: 20px;
 }
