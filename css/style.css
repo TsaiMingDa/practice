@@ -10,20 +10,21 @@
 }
 .carousel-inner img{
 	width:50%;
-	margin:40px auto 30px auto;
-	padding-top:50px;
-	padding-bottom:50px;
+	margin:40px auto 75px auto;
+	padding-top:120px;
+	padding-bottom:105px;
 }
 .countryImg:hover{
-	 -webkit-filter: drop-shadow(8px 8px 10px gray); /* Chrome, Safari, Opera */
-    filter: drop-shadow(8px 8px 10px gray);
+	 -webkit-filter: drop-shadow(8px 8px 10px white); /* Chrome, Safari, Opera */
+    filter: drop-shadow(8px 8px 10px white);
 	
 }
+
 #country{
-	background-color:white;
+	background-color:#AAAAAA;
 	padding-bottom:50px;
 	padding-top:60px;
-	font-family: 'SentyMARUKO', sans-serif;
+	font-family:  sans-serif;
 	font-size:25px;
 }
 #countryTitle{
@@ -69,8 +70,11 @@ footer{
 #map,#map2,#map3{ 
 	height: 300px;
 }
+.shadowRed{
+	box-shadow: 5px 5px 5px #BB3D00;
+}
 .carousel{
-	  background: linear-gradient(	#FF5151,#FF0000); /* Standard syntax */;
+	  background: linear-gradient(#CC0000,#AA0000); /* Standard syntax */;
 }
 .carousel-control.left, .carousel-control.right {
     background-image: none
