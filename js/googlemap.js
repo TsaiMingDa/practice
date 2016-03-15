@@ -2,9 +2,9 @@
 		var map;
 		var locat = new google.maps.LatLng(43.054226, 141.307788);
 		var map2;
-		var locat2 = new google.maps.LatLng(25.046566, 121.515956);
+		var locat2 = new google.maps.LatLng(23.504207, 120.801288);
 		var map3;
-		var locat3 = new google.maps.LatLng(45.430817,10.331516);
+		var locat3 = new google.maps.LatLng(43.339261, 142.778416);
 	
 		function mapInit(){
 			var mapOptions = {
@@ -14,12 +14,12 @@
 			};
 			var mapOptions2 = {
 				center:locat2,
-				zoom:14,
+				zoom:10,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 			};
 			var mapOptions3 = {
 				center:locat3,
-				zoom:14,
+				zoom:5,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 			};
 			
@@ -58,3 +58,24 @@
           google.maps.event.trigger(map3, "resize");
           map3.setCenter(locat3);
       });
+	  $(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, #country a").on('click', function(event) {
+
+  // Prevent default anchor click behavior
+  event.preventDefault();
+
+  // Store hash
+  var hash = this.hash;
+
+  // Using jQuery's animate() method to add smooth page scroll
+  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top
+  }, 900, function(){
+
+    // Add hash (#) to URL when done scrolling (default click behavior)
+    window.location.hash = hash;
+    });
+  });
+})
