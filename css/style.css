@@ -92,3 +92,18 @@ position: relative;
   top: -20px;
   left: 20px;
 }
+#gotop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;    
+    padding: 10px 10px;    
+    font-size: 20px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+	border-radius:8px;
+}
+#gotop:hover{
+	background: rgba(0,0,0,1);
+}
