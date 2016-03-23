@@ -8,6 +8,9 @@
 	src:url("SentyMARUKO.ttf"),
 		url("http://www.sentyfont.com/index_htm_files/SentyMARUKO.ttf");
 }
+#home{
+	width:auto;
+}
 .carousel-inner img{
 	width:50%;
 	margin:40px auto 75px auto;
