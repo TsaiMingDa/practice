@@ -107,9 +107,7 @@ position: relative;
 #gotop:hover{
 	background: rgba(0,0,0,1);
 }
-.fb-comments{
-	data-width:auto;	
-}
+
 #comment{
 	padding:100px auto 50px auto;
 	text-align:center;
