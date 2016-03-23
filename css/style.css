@@ -9,7 +9,7 @@
 		url("http://www.sentyfont.com/index_htm_files/SentyMARUKO.ttf");
 }
 #home{
-	width:auto;
+	width:100%;
 }
 .carousel-inner img{
 	width:50%;
