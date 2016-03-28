@@ -8,8 +8,33 @@
 	src:url("SentyMARUKO.ttf"),
 		url("http://www.sentyfont.com/index_htm_files/SentyMARUKO.ttf");
 }
+#hTitle span{
+	color:black;
+	text-shadow:8px 5px 5px #666666;
+}
+#hTitle:hover{
+	-ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
+}
+#hTitle{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size:60px;
+	color:white;
+	position:absolute;
+	top:75%;
+	left:10%;
+	text-shadow:3px 3px 3px #AAAAAA;
+}
+#homeImg{
+		/*
+	用圖片撐開div
+	*/
+	visibility:hidden;
+}
 #home{
-	width:100%;
+	background: url(../images/F1000002.JPG) no-repeat fixed;
+	background-size:100% auto;
 }
 .carousel-inner img{
 	width:50%;
@@ -82,11 +107,21 @@ footer{
 .carousel-control.left, .carousel-control.right {
     background-image: none
 }
-@media (max-width: 600px) {
-    .carousel-caption {
+@media screen and (max-width: 600px) {
+    .carousel-caption,#hTitle {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
+
 }
+@media screen and (max-width: 768px){
+	#hTitle{
+		font-size:40px;
+		color:white;
+		position:absolute;
+		top:40%;
+		left:10%;
+	}
+}	
 .navbar{
 	font-family: 'Candal', sans-serif;
 }
@@ -106,8 +141,6 @@ position: relative;
     color: white;
     cursor: pointer;
 	border-radius:8px;
-	z-index:9999999;
-	
 }
 #gotop:hover{
 	background: rgba(0,0,0,1);
