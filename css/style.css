@@ -1,12 +1,12 @@
 @font-face{
 	font-family: "SentyCreamPuff";
-	src:url("SentyCreamPuff.ttf"),
-		url("http://www.sentyfont.com/index_htm_files/SentyCreamPuff.ttf");
+	src:url("./SentyCreamPuff.ttf")/*,
+		url("http://www.sentyfont.com/index_htm_files/SentyCreamPuff.ttf")*/;
 }
 @font-face{
 	font-family: "SentyMARUKO";
-	src:url("SentyMARUKO.ttf"),
-		url("http://www.sentyfont.com/index_htm_files/SentyMARUKO.ttf");
+	src:url("./SentyMARUKO.ttf")/*,
+		url("http://www.sentyfont.com/index_htm_files/SentyMARUKO.ttf")*/;
 }
 #hTitle span{
 	color:black;
